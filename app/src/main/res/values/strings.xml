@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LocalizeMe</string>
     <string name="main_activity_title">Ma Vitesse</string>
-    <string name="main_current_speed_value">%1$s Km/h</string>
+    <string name="speed_value">%1$s Km/h</string>
     <string name="permission_denied_message">Cette application doit pouvoir vous localiser pour assurer son fonctionnement</string>
     <string name="average_speed_title">Ma vitesse moyenne</string>
     <string name="bird_fly_speed_title">Vitesse à vol d\'oiseau</string>

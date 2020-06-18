@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initScreen() {
-        binding.mainCurrentSpeed.setText(getString(R.string.main_current_speed_value, "0"));
+        binding.mainCurrentSpeed.setText(getString(R.string.speed_value, "0"));
     }
 
     private void setupDataObserver() {
