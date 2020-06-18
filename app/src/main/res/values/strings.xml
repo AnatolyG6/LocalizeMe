@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LocalizeMe</string>
+    <string name="main_activity_title">Ma Vitesse</string>
+    <string name="main_current_speed_value">%1$s Km/h</string>
 </resources>
