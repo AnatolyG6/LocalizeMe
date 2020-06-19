@@ -49,7 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 mainContent -> {
                     if (mainContent != null) {
                         binding.mainCurrentSpeed.setText(
-                                Integer.toString(mainContent.getUserCurrentSpeed())
+                                getString(
+                                        R.string.speed_value,
+                                        Integer.toString(mainContent.getUserCurrentSpeed())
+                                )
                         );
                     }
                 }
@@ -100,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (
                 resultCode == RESULT_OK &&
                         requestCode == AverageSpeedActivity.AVERAGE_SPEED_ACTIVITY_KEY
