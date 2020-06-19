@@ -28,8 +28,8 @@ public class LocationRepositoryImpl implements LocationRepository {
     public void setUserLocationListener() {
         locationManager.requestLocationUpdates(
                 locationProvider,
-                1000,
-                10,
+                500,
+                5,
                 userLocationDataListener
         );
     }

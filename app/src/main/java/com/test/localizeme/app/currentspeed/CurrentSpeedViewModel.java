@@ -57,7 +57,7 @@ public class CurrentSpeedViewModel {
     private boolean checkIfUserDrive() {
         int checkLastSpeedStatementNumber = 2;
         int checkStartSpeedStatementNumber = 10;
-        float minimalDrivingSpeedLimit = 4f;
+        float minimalDrivingSpeedLimit = 1.3f;
         float lastStatementAverageSpeed = 0;
         float firstStatementAverageSpeed = 0;
 
